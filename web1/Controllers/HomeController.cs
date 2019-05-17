@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using web1.Models;
 
 namespace web1.Controllers
 {
@@ -17,7 +18,7 @@ namespace web1.Controllers
                 LastAccessDate = DateTime.Now
             };
 
-            return View();
+            return View(myData);
         }
 
         public ActionResult FAQ()
