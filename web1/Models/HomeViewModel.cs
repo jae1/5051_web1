@@ -1,6 +1,9 @@
-﻿public class HomeViewModel
+﻿namespace web1.Models
 {
-    public int PhoneCount;
-    public int UserCount;
-    public System.DateTime LastAccessDate;
+    public class HomeViewModel
+    {
+        public int PhoneCount;
+        public int UserCount;
+        public System.DateTime LastAccessDate;
+    }
 }
